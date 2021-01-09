@@ -1,0 +1,26 @@
+.icon{
+  vertical-align: middle !important;
+   font-size: 3em !important;
+   width: 60px !important;
+   margin-top: -0.5 !important;
+
+}
+
+.button{
+  margin-left: 2em !important;
+}
+
+.date{
+  color: red;
+  margin-left: 0.5em;
+}
+.hospital{
+  color: green;
+}
+.next{
+  color: wheat;
+  background-color: purple;
+  padding: 1em;
+  width:40px;
+  height:40px;
+}

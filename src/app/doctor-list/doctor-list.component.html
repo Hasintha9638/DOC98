@@ -1,0 +1,14 @@
+<mat-card class="example-card">
+    <mat-card-header>
+      <mat-card-title>Doctor List</mat-card-title>
+      <mat-card-subtitle>Select any Doctor to filter sessions</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <mat-selection-list #shoes [multiple]="false">
+        <mat-list-option *ngFor="let Doctor of doctors">
+            {{Doctor.name}} - {{Doctor.speciality_name}}
+        </mat-list-option>
+       
+      </mat-selection-list>
+    </mat-card-content>
+  </mat-card>
